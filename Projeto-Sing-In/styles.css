@@ -3,6 +3,105 @@
     --secondary-color: #344054;
     --accent1: #CBCCE8;
     --accent2: #667085;
-    --background-color: #EFF0FF;
+    --background-color: #ffffff;
+    --black: #000;
     --font: 'Inter';
 }
+
+body { 
+    background-color: var(--background-color);
+    color: var(--secondary-color);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    text-align: center;
+    padding: 1em;
+    margin-top: 3.5em;
+}
+
+.logo__titulo {
+    color: var(--black);
+    font-weight: 500;
+    padding: 0.5em;
+}
+
+.principal {
+    padding: 1em;
+}
+
+.principal__titulo {
+    font-size: 32px;
+    font-weight: 700;
+    padding: 0.3em 0;
+}
+
+.principal__descricao {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--accent2);
+    padding-bottom: 3em;
+}
+
+.lable__email {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.principal__email,
+.principal__password {
+    display: block;
+    border: 1px solid var(--accent1);
+    border-radius: 8px;
+    width: 98%;
+    padding: 0.5em 0;
+    margin: 1em 0;
+}
+
+.lable__password {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.principal__past {
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-me {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.past__forgot {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.principal__sing-button {
+    display: block;
+    background-color: var(--primary-color);
+    color: #FFF;
+    margin: 1em auto;
+}
+
+.principal__google-button {
+    display: block;
+    margin: 1em auto;
+    background-color: transparent;
+    border: 1px solid var(--accent1);
+}
+
+.principal__sing-button,
+.principal__google-button {
+    padding: 0.7em 9.4em;
+    border-radius: 8px;
+}
+
+
+
+
+    
