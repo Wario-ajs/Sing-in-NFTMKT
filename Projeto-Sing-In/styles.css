@@ -16,6 +16,14 @@ body {
     font-weight: 400;
 }
 
+.banner__banner {
+    display: none;
+}
+
+.logo__desktop--img {
+    display: none;
+ }
+
 .logo {
     text-align: center;
     padding: 1em;
@@ -140,7 +148,55 @@ body {
     color: #5429FF;
 }
 
+@media screen and (min-width: 1440px) {
+    main {
+        display: flex;
+        padding: 3em 3em 3em 0;
+        align-items: center;
+    }
 
+    .banner__banner {
+        display: inline;
+        background-color: #CBCCE8;
+        border-radius: 40px;
+ 
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo__desktop--img {
+        display: inline-block;
+    }
+
+    .principal {
+        width: 50em;
+        padding: 0 9em 0 8em;
+        margin-right: 1em;
+    }
+
+    .password__eye {
+        display: none;
+    }
+
+    .principal__titulo {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .principal__email::placeholder {
+        background-position: 20.5em;
+    }
+
+    .principal__sub {
+        font-size: 16px;
+    }
+
+   .principal__sing-button {
+        padding: 0.8em 9.57em;
+   } 
+}
 
 
 
