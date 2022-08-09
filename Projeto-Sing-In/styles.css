@@ -60,14 +60,10 @@ body {
     font-weight: 500;
 }
 
-.principal__email::placeholder {
-    background: url(../Projeto-Sing-In/img/X\ Icon.png) no-repeat;
-    background-position: 19em;
-    padding-left: 0.7em;
-}
-
-.principal__password::placeholder {
-    padding-left: 0.7em;
+.principal__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .principal__email,
@@ -75,8 +71,8 @@ body {
     display: block;
     border: 1px solid var(--accent1);
     border-radius: 8px;
-    width: 98%;
-    padding: 0.8em 0;
+    width: 96%;
+    padding: 0.8em 0 0.8em 1em;
     margin: 0.7em 0 1em 0;
 }
 
@@ -111,11 +107,13 @@ body {
 }
 
 .principal__sing-button {
-    display: block;
-    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0.7em;
+    margin: 1em 0.3em;
     color: #FFF;
-    margin: 1em auto;
-    padding: 0.8em 8.9em;
+    background-color: var(--primary-color);
     border-radius: 8px;
 }
 
@@ -185,16 +183,12 @@ body {
         font-weight: 700;
     }
 
-    .principal__email::placeholder {
-        background-position: 20.5em;
-    }
-
     .principal__sub {
         font-size: 16px;
     }
 
    .principal__sing-button {
-        padding: 0.8em 9.57em;
+        padding: 1em 0.7em;;
    } 
 }
 
