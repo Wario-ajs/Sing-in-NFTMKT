@@ -2,7 +2,7 @@
 # Sing-in-NFTMKT
 Repositorio criado para o desenvolvimento do projeto log in page (NFT Market).
 
-[Link do projeto no Vercel](https://cuda-project-cbmnx31q5-wario-ajs.vercel.app/)
+[Link do projeto no Vercel](https://sing-in-nftmkt.vercel.app/)
 
 ## Guia de estilos
 
