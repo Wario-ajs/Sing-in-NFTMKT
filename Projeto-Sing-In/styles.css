@@ -31,7 +31,7 @@ body {
 }
 
 .principal {
-    padding: 1.5em;
+    padding: 1.6em;
 }
 
 .principal__titulo {
@@ -52,6 +52,16 @@ body {
     font-weight: 500;
 }
 
+.principal__email::placeholder {
+    background: url(../Projeto-Sing-In/img/X\ Icon.png) no-repeat;
+    background-position: 19em;
+    padding-left: 0.7em;
+}
+
+.principal__password::placeholder {
+    padding-left: 0.7em;
+}
+
 .principal__email,
 .principal__password {
     display: block;
@@ -65,6 +75,13 @@ body {
 .lable__password {
     font-size: 14px;
     font-weight: 500;
+}
+
+.password__eye {
+    position: absolute;
+    top: 27.5em;
+    right: 2.3em;
+    cursor: pointer;
 }
 
 .principal__past {
