@@ -1,6 +1,6 @@
 
 # Sing-in-NFTMKT
-Repositorio criado para o desenvolvimento do projeto log in page (NFT Market).
+Repositorio criado para o desenvolvimento do projeto log in page (NFT Market). Utilizando HTML e CSS
 
 [Link do projeto no Vercel](https://sing-in-nftmkt.vercel.app/)
 
@@ -37,6 +37,6 @@ black: `#000`
 
 ## Layout
 
-`1440px`
+:computer:`Desktop: 1440px`
 
-`390px`
+:iphone:`Mobile: 390px`
