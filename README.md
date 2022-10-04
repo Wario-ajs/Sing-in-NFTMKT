@@ -4,6 +4,8 @@ Repositorio criado para o desenvolvimento do projeto log in page (NFT Market).
 
 [Link do projeto no Vercel](https://sing-in-nftmkt.vercel.app/)
 
+<img src="Projeto-Sing-in/img/Cover.png">
+
 ## Guia de estilos
 
 Toda a estilização usada no projeto dentro do design do figma criado por [Bony Fasius Gultom(@itsmebfg)](https://www.figma.com/@itsmebfg).
